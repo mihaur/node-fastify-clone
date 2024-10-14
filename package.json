@@ -1,5 +1,5 @@
 {
-  "name": "node-fastify-clone",
+  "name": "node-fastify-template",
   "version": "1.2.0",
   "description": "Node.js API server based on fastify/MongoDB project template.",
   "main": "./src/server.js",
@@ -21,7 +21,7 @@
     "mega-linter": "npx mega-linter-runner --container-name=mega-linter",
     "prepare": "husky"
   },
-  "repository": "github:mihaur/node-fastify-clone",
+  "repository": "github:mihaur/node-fastify-template",
   "keywords": [
     "node",
     "nodejs",
