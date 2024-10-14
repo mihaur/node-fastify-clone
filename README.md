@@ -1,4 +1,4 @@
-# Node.js API server based on fastify + MongoDB project clone
+# Node.js API server based on fastify + MongoDB project template
 
 [![neostandard javascript style][neostandard-image]][neostandard-url]
 [![Conventional Commits][conventional-commits-image]][conventional-commits-url]
