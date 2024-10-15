@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@ff880faa46c2c6e3e75b29b8a490a18d72cf6a79
+        uses: AndreasAugustin/actions-template-sync@7cd796fa1c887cb432d6a1d37e78172320131953
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: mihaur/node-fastify-template
