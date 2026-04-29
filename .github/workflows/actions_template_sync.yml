@@ -19,7 +19,7 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@8ec19a5f2721ffb81ff809aa340ddf75e6a85ea6
         with:
