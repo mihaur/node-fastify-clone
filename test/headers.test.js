@@ -31,7 +31,7 @@ test('GET `/api/headers` route', async t => {
   assert.deepEqual(await lastLogItem(t.app.mongo.db), expectedHeaders)
 })
 
-test('GET `/api/headers` route additional headers', async t => {
+test('GET `/api/headers` route with additional headers', async t => {
   const expectedHeaders = {
     'x-my-header': '42',
     'user-agent': 'lightMyRequest'
@@ -58,7 +58,7 @@ test('GET `/api/headers?delay=1` route', async t => {
 
   const res = await t.app.inject({
     method: 'GET',
-    url: '/api/headers'
+    url: '/api/headers?delay=1'
   })
 
   assert.equal(res.headers['content-type'], 'application/json; charset=utf-8')
